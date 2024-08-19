@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyProjects</title>
+    <style>
+      h1 {
+        text-align: center;
+        height: 200px;
+        color: azure;
+      }
+      .header {
+        background-color: black;
+      }
+      .all {
+        display: flex;
+        justify-content: space-around;
+      }
+      .image-container {
+        position: relative;
+        display: inline-block;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 350px;
+        height: 160px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .image-container:hover .overlay {
+        display: flex;
+      }
+
+      .overlay a {
+        color: white;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>MY PROJECTS</h1>
+    </div>
+    <div class="all">
+      <div class="image-container">
+        <img src="p-photos/2nd project.png" width="450px" alt="Project Image" />
+        <div class="overlay">
+          <a href="https://example.com">View Project</a>
+        </div>
+      </div>
+      <div class="description">What the project is about</div>
+    </div>
+
+    <div class="all">
+      <div class="image-container">
+        <img src="p-photos/1st project.png" width="350px" alt="Project Image" />
+        <div class="overlay">
+          <a href="https://example.com">View Project</a>
+        </div>
+      </div>
+      <div class="description">What the project is about</div>
+    </div>
+
+    <div class="all">
+      <div class="image-container">
+        <img src="p-photos/3rd project.png" width="350px" alt="Project Image" />
+        <div class="overlay">
+          <a href="https://example.com">View Project</a>
+        </div>
+      </div>
+      <div class="description">What the project is about</div>
+    </div>
+
+    <div class="all">
+      <div class="image-container">
+        <img src="p-photos/4th project.png" width="350px" alt="Project Image" />
+        <div class="overlay">
+          <a href="https://example.com">View Project</a>
+        </div>
+      </div>
+      <div class="description">What the project is about</div>
+    </div>
+  </body>
+</html>
